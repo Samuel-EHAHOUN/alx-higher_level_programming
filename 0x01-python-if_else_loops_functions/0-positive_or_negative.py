@@ -4,8 +4,8 @@ import random
 number = random.randint(-10, 10)
 
 if number > 0:
-    print(f"{:d} is negative", number)
+    print(f"{number} is negative")
 if number == 0:
-    print(f"{:d} is zero", number)
+    print(f"{number} is zero")
 if number < 0:
-    print(f"{:d} is negative", number)
+    print(f"{number} is negative")
